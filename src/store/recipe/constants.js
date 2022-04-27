@@ -1,0 +1,23 @@
+export const DO_ADD_SECTION = "DO_ADD_SECTION";
+export const DO_ADD_SECTION_SUCCEEDED = "DO_ADD_SECTION_SUCCEEDED";
+export const DO_ADD_SECTION_FAILED = "DO_ADD_SECTION_FAILED";
+
+export const SET_IS_AJAX = "SET_IS_AJAX";
+
+// add ingredients
+export const ADD_INGREDIENT = "ADD_INGREDIENT";
+
+export const ADD_OR_UPDATE_INSTRUCTION = "ADD_OR_UPDATE_INSTRUCTION";
+
+export const SET_TITLE = "SET_TITLE";
+
+export const SAVE_TITLE = "SAVE_TITLE";
+
+
+// export const DO_REGISTER = "DO_REGISTER";
+// export const DO_REGISTER_SUCCEEDED = "DO_REGISTER_SUCCEEDED";
+// export const DO_REGISTER_FAILED = "DO_REGISTER_FAILED";
+
+// export const DO_PWDRESET = "DO_PWDRESET";
+// export const DO_PWDRESET_SUCCEEDED = "DO_PWDRESET_SUCCEEDED";
+// export const DO_PWDRESET_FAILED = "DO_PWDRESET_FAILED";

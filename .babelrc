@@ -1,0 +1,8 @@
+{
+    "env": {
+      "production": {
+        "plugins": ["transform-remove-console","add-react-displayname", 
+          "./node_modules/@freshpaint/freshpaint-react-native/plugin.js"]
+      }
+    }
+  }

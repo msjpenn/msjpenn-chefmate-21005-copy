@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;  
+}
+
+.header {
+    background-color: #fff;
+}
+
+.navbar-nav li a{
+    color: #000000 !important;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+}
+
+.navbar-nav li a.nav-link.active {
+    color: #61BAAC !important;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+}
+
+/**
+ * Hero Section
+ *
+ */
+
+.hero {
+    width: 100vw;
+    height: 80vh;
+    background-color: #F1FDFB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F1FDFB, #fff);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F1FDFB, #fff);
+}
+
+.main-logo{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+
+.chefmate-intro h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+}
+ 
+
+
+.chefmate-intro h3 span{
+    color: #61BAAC;
+}
+
+.chefmate-intro h6{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+}
+
+.approachable{
+    color: #FBB905;
+}
+
+.friendly{
+    color: #FDBEBE;
+}
+
+.fun{
+    color: #DFBCEF;
+}
+
+.hero-bg{
+    max-height: 600px;
+    max-width: 200px;
+}
+
+.hero-footer{
+    /* display: flex; */
+    height: 100px;
+    margin-top: 20px;
+}
+
+.store-svg{
+    height: 30px;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+.play-store-image{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+.app-store-image{
+    display: flex;
+    width: 300px;
+    height: 100px;
+}
+
+
+.hw-header h4{
+    color: #000;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+}
+
+.hw-header p{
+    color: #61BAAC;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+
+}
+
+.hw-img-1{
+    max-width: 245px;
+}
+
+.hw-img-1 p{
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.hw-img-2{
+    max-width: 358px;
+
+}
+.hw-img-2 p{
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.hw-img-3{
+    max-width: 245px;
+}
+
+.hw-img-3 p{
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.contact{
+    margin-top: 100px;
+}
+
+.contact h4 {
+    color: #000;
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+}
+.contact p a {
+    color: #61BAAC;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact p a:visited {
+    color: #61BAAC;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+.contact p a:hover {
+    color: #61BAAC;
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.scroll-up{
+}
+
+.footer{
+    background-color: #61BAAC;
+    height: 100px;
+}
+
+.bottom-nav li{
+    list-style: none;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+}
+
+.bottom-nav li a{
+    color: #fff;
+    font-family: 'Signika', sans-serif !important;
+    font-size: 14px;
+}
+.bottom-nav li a:hover{
+    color: #bfc5c4;
+    font-family: 'Signika', sans-serif;
+    font-size: 14px;
+}
+
+.bottom-nav{
+    opacity: 0;
+}
+
+.back-to-top-wrapper {
+    position: absolute;
+    top: 100vh;
+     right: 20px;
+    bottom: 120px;
+    width: 3em;
+    pointer-events: none;
+}
+
+.back-to-top-link {
+    position: fixed;
+    position: sticky;
+    pointer-events: all;
+    top: calc(100vh - 5rem);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.25rem;
+    transition: transform 80ms ease-in;
+}
+.back-to-top-link:hover, .back-to-top-link:focus {
+    transform: scale(1.1);
+}
+.back-to-top-link:focus {
+}
+  
+
+@media (min-width: 576px) {
+    .chefmate-intro h3{
+        font-size: 24px;
+    }
+
+    .chefmate-intro h6{
+        font-size: 20px;
+    }    
+
+    .main-logo{
+        max-height: 100px;
+        max-width: 100px;
+    }
+
+    .hero-footer{
+        /* display: flex; */
+        height: 30px;
+    }    
+
+    .store-svg{
+        height: 50px;
+        width: 200px;
+        margin-right: 20px;
+    }  
+    
+    .hero-bg{
+        max-height: 576px;
+        max-width: 200px;
+        margin-top: 50px;
+    }
+
+    .hw-header h4{
+        color: #000;
+        font-family: 'Signika', sans-serif;
+        font-size: 30px;
+    }
+
+    .hw-header p{
+        color: #61BAAC;
+        font-family: 'Signika', sans-serif;
+        font-size: 18px;
+    
+    }
+
+    .contact h4 {
+        color: #000;
+        font-family: 'Signika', sans-serif;
+        font-size: 30px;
+    }
+
+    .back-to-top-wrapper {
+         right: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .hero {
+        width: 100vw;
+        height: 75vh;
+    }
+
+    .chefmate-intro h3{
+        font-size: 30px;
+    }
+
+    .hero-bg{
+        max-height: 768px;
+        max-width: 400px;
+    }
+
+    .hero-bg{
+        max-height: 600px;
+        max-width: 400px;
+    }    
+    .bottom-nav{
+        opacity: 1;
+    }
+    .back-to-top-wrapper {
+        right: 100px;
+   }
+}
+
+
+@media (min-width: 992px) {
+    .chefmate-intro h3{
+        font-size: 40px;
+    }
+
+    .hero-bg{
+        max-height: 992px;
+        max-width: 400px;
+    }
+}
+
+
+/* @media (max-width: 576px) {
+    .hero-bg{
+        max-height: 600px;
+        max-width: 200px;
+    }
+} */

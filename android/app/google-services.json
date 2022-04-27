@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "693372488326",
+    "project_id": "chefmate-1790a",
+    "storage_bucket": "chefmate-1790a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693372488326:android:f34e8ee00255b7451f5f07",
+        "android_client_info": {
+          "package_name": "com.crowdbotics.chefmateapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693372488326-7g4dr5c2d0crlrqfqkmcm90otl9mdmhi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crowdbotics.chefmateapp",
+            "certificate_hash": "7d3fb0a064753fa50617f9fbd6157a968739683f"
+          }
+        },
+        {
+          "client_id": "693372488326-omr63hmgc0fdbfscfdan3ojevlumfcse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMwc_Jzr5qVvwb1QZNCV1EGcr7QbnQRf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693372488326-omr63hmgc0fdbfscfdan3ojevlumfcse.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "693372488326-d81rq1tpg8ruq019v4k78fieks5d6e1s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.crowdbotics.chefmateapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
